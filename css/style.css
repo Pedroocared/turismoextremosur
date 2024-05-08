@@ -1,0 +1,234 @@
+
+
+@media (max-width: 535px) {
+    .contenedorCarousel{
+        margin-top: 7vh;
+    }
+
+    body header nav .navbar-brand {
+        display: block;
+        margin-left: auto;
+        text-align: center;
+        width: 70%;
+        font-size: 5vw;
+      }  
+    /*contacto*/
+.contactanosConten{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding:30px;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 50px;
+}
+.contactanosConten h1{
+    text-align: center;
+}
+
+.contactoPrimera{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.contactoPrimera div{
+    margin: 5px;
+}
+.contactoTercera{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.contactoTercera div{
+    margin: 5px;
+}
+.contactoQuinta{
+    display: flex;
+
+}
+.contactoQuinta button{
+    margin-left: auto;
+    margin-right: auto;
+}  
+}
+
+@media (min-width: 536px) and (max-width: 720px) {
+    .contenedorCarousel{
+        margin-top: 7vh;
+    }
+
+    body header nav .navbar-brand {
+        display: block;
+        margin-left: auto;
+        text-align: center;
+        width: 70%;
+        font-size: 5vw;
+      }  
+    /*contacto*/
+.contactanosConten{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding:30px;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 50px;
+}
+.contactanosConten h1{
+    text-align: center;
+}
+
+.contactoPrimera{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.contactoPrimera div{
+    margin: 5px;
+}
+.contactoTercera{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.contactoTercera div{
+    margin: 5px;
+}
+.contactoQuinta{
+    display: flex;
+
+}
+.contactoQuinta button{
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+}
+
+
+
+@media (min-width:721px) {
+    .contenedorCarousel{
+    
+        display: flexbox;
+        margin-top: 3vw;
+        max-width:55%;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5); 
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 7vh;
+
+    }
+    body header nav a {
+        margin-left: 10px;
+
+    }
+    .mobile{
+        display: none;
+    }
+    /*contacto*/
+    .contactanosConten{
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        padding:30px;
+
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5); 
+        margin-bottom: 50px;
+    }
+    .contactanosConten h1{
+        text-align: center;
+    }
+
+    .contactoPrimera{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .contactoPrimera div{
+        margin: 5px;
+    }
+    .contactoTercera{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .contactoTercera div{
+        margin: 5px;
+    }
+    .contactoQuinta{
+        display: flex;
+
+    }
+    .contactoQuinta button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+.quienes{
+    display: grid;
+    padding: 35px;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: 2fr 4fr;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5); 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.quienes .quienesimg{
+    
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    
+}
+.quienes .quienesimg img{
+border: 10px solid #80880a; 
+width: 300px;
+height: 300px;
+border-radius: 100%;
+margin-top: 20%;
+}
+.quienes .quienestext{
+    h2{
+        text-align: center;
+    }
+    max-width: 100%;
+    grid-column: 2;
+
+    text-align: justify;
+    margin: 10px;
+    padding: 20px;
+
+
+}
+html {
+    height: 100%;
+  }
+  
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+  }
+  
+.footerdown{
+
+    margin-top: auto;
+  }
+
+
+
