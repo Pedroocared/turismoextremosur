@@ -112,6 +112,7 @@
 
 
 @media (min-width:721px) {
+
     .contenedorCarousel{
     
         display: flexbox;
@@ -232,3 +233,28 @@ body {
 
 
 
+  .nuestrosServis{
+    display: grid;
+    padding: 35px;
+    width: 80%;
+
+    margin-bottom: 50px;
+    grid-template-rows: 2fr 2fr 2fr;
+    border-radius: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+    
+}
+.nuestrosServis .card{
+    margin-bottom: 55px;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5); 
+}
+.titulo h2{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 40px;
+}
