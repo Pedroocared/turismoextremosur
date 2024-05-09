@@ -51,13 +51,87 @@
 .contactoQuinta button{
     margin-left: auto;
     margin-right: auto;
-}  
+} 
+.quienes{
+    display: grid;
+    padding: 15px;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5); 
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+.quienes .quienesimg{
+
+    grid-row: 1/2;
+    margin-left: auto;
+    margin-right: auto;
+    
+    grid-column: 1/2 span;
+
+
+
+    
+}
+.quienes .quienesimg img{
+border: 10px solid #80880a; 
+width: 40vw;
+height:40vw;
+border-radius: 100%;
+margin-top: 20%;
+}
+.quienes .quienestext{
+
+    grid-row: 2;
+    grid-column: 1/2 span;
+    width: 100%;
+    text-align: justify;
+    
+
+    h2{
+        text-align: center;
+    }
+
+
 }
 
+.nuestrosServis .cards h5{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.nuestrosServis .cards p{
+    text-align: justify;
+  
+}
+.nuestrosServis .cards .card-body {
+    display: grid;
+    height: auto;
+
+}
+.nuestrosServis .cards .card-body a{
+background-color: #80880a;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0;
+margin-top: 10px;
+
+}
+}
 @media (min-width: 536px) and (max-width: 720px) {
     .contenedorCarousel{
         margin-top: 7vh;
     }
+
 
     body header nav .navbar-brand {
         display: block;
@@ -106,7 +180,74 @@
     margin-left: auto;
     margin-right: auto;
 }  
+    .quienes{
+        display: flex;
+        padding: 35px;
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 4fr;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5); 
+        margin-left: auto;
+        margin-right: auto;
 
+
+    }
+    .quienes .quienesimg{
+
+        grid-row: 1/2;
+        margin-left: auto;
+        margin-right: auto;
+        
+        grid-column: 1/2 span;
+
+
+
+        
+    }
+    .quienes .quienesimg img{
+    border: 10px solid #80880a; 
+    width: 40vw;
+    height:40vw;
+    border-radius: 100%;
+    margin-top: 20%;
+    }
+    .quienes .quienestext{
+        max-width: 100%;
+        grid-row: 2;
+        grid-column: 1/2 span;
+
+        text-align: justify;
+        margin: 10px;
+        padding: 20px;
+        h2{
+            text-align: center;
+        }
+
+
+
+
+    }
+    .nuestrosServis .cards h5{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: xx-large;
+    }
+    .nuestrosServis .cards p{
+        text-align: justify;
+      
+    }
+    .nuestrosServis .cards .card-body {
+        display: grid;
+    }
+    .nuestrosServis .cards .card-body a{
+    background-color: #80880a;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
 }
 
 
@@ -171,8 +312,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-}
-
+    
 
 .quienes{
     display: grid;
@@ -188,17 +328,18 @@
 
 }
 .quienes .quienesimg{
-    
+
     grid-column: 1;
     margin-left: auto;
     margin-right: auto;
     margin: 10px;
+
     
 }
 .quienes .quienesimg img{
 border: 10px solid #80880a; 
-width: 300px;
-height: 300px;
+width: 20vw;
+height:20vw;
 border-radius: 100%;
 margin-top: 20%;
 }
@@ -215,6 +356,26 @@ margin-top: 20%;
 
 
 }
+.nuestrosServis .cards h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+.nuestrosServis .cards p{
+    text-align: justify;
+  
+}
+.nuestrosServis .cards .card-body {
+    display: grid;
+}
+.nuestrosServis .cards .card-body a{
+background-color: #80880a;
+margin-left: auto;
+margin-right: auto;
+
+}
+}
+
 html {
     height: 100%;
   }
@@ -236,7 +397,7 @@ body {
   .nuestrosServis{
     display: grid;
     padding: 35px;
-    width: 80%;
+    width: 95%;
 
     margin-bottom: 50px;
     grid-template-rows: 2fr 2fr 2fr;
@@ -270,6 +431,7 @@ body {
     margin-bottom: 55px;
     width: 100%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5); 
+    padding: 25px;
 }
 .titulo h2{
     text-align: center;
@@ -317,3 +479,22 @@ body {
 
     }
 }
+@media (min-width:720px)and( max-width:878px){
+    .quienes{
+        display: grid;
+        padding: 35px;
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        grid-template-columns: 2fr 4fr;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5); 
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+}
+.navbar-toggler{
+    margin-right: 10px;
+}
+
