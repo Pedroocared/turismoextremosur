@@ -49,11 +49,11 @@ async function showWeatherForecast() {
 }
 
 
-
+//funcion para poner en mayuscula la primera letra
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
-
+//funcion de creacion de card del tiempo
 function createWeatherCard(data) {
     const card = document.createElement('div');
     card.classList.add('card');
